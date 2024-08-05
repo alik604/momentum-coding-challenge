@@ -1,0 +1,1 @@
+The customer, Sam, was interested in purchasing **GPUs (Graphics Processing Units)** from Nvidia. 

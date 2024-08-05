@@ -1,0 +1,42 @@
+00:00:00 Sam (openai.com): Hey there Staya.
+00:00:02 Satya  (microsoft.com): Hi Sam, how are you?
+00:00:05 Sam (openai.com): I'm doing good. Do you think you can give us 10000 more GPUs?
+00:00:06 Satya (microsoft.com): I'm sorry Sam we can't do 10000, how about 5000?
+00:00:08 Sam (openai.com): 5000 is a bit low, can we negotiate a bit? We really need the extra processing power.
+00:00:11 Satya (microsoft.com):  I understand, but we're pushing our production capacity to the limit right now. Could you maybe tell me what you're using the GPUs for?
+00:00:15 Sam (openai.com): Well, we're working on some really exciting new AI models, and we need the extra processing power to train them. We're really pushing the boundaries of what's possible with AI, and we believe these models will have a huge impact on the world. 
+00:00:20 Satya (microsoft.com): That sounds exciting! I understand your need for the GPUs.  I'm going to need to talk to my team about this. How about we schedule a call for tomorrow morning to discuss this further?
+00:00:25 Sam (openai.com):  Sounds great, Satya. Tomorrow morning works for me. 
+00:00:27 Satya (microsoft.com):  Perfect. I'll reach out to you around 10am tomorrow.
+00:00:30 Sam (openai.com): Great. Thanks Satya!
+00:00:31 Satya (microsoft.com): No problem, Sam. Looking forward to our call tomorrow.
+00:00:33 Sam (openai.com): Thanks again, Satya. Talk to you tomorrow.
+00:00:34 Satya (microsoft.com): Talk to you tomorrow.
+00:00:35 (END CALL)
+00:00:35 (START CALL)
+00:00:37 Satya (microsoft.com): Hello Sam, this is Satya.
+00:00:39 Sam (openai.com): Hey Satya, thanks for taking my call again.
+00:00:41 Satya (microsoft.com):  Of course, Sam. I've had a chance to discuss your request with my team. 
+00:00:44 Sam (openai.com): Great.
+00:00:45 Satya (microsoft.com): We're willing to offer you 7500 GPUs. We can't go higher than that at this time. 
+00:00:48 Sam (openai.com):  That's a good starting point. We were hoping for more, but we're willing to negotiate.
+00:00:52 Satya (microsoft.com): We can do 8000. But, that's our final offer.  We're really pushing our resources to accommodate this request.
+00:00:56 Sam (openai.com):  Okay, let me talk to our team internally and see if we can accept that. Can we circle back in an hour?
+00:00:59 Satya (microsoft.com): Sure, no problem. I'll be available.
+00:01:01 Sam (openai.com): Great. Thanks again, Satya. 
+00:01:03 Satya (microsoft.com): You're welcome, Sam. Talk to you soon.
+00:01:04 (END CALL) 
+00:01:04 (START CALL)
+00:01:06 Sam (openai.com): Hey Satya, it's Sam.  We've had a chance to discuss your offer internally. 
+00:01:09 Satya (microsoft.com):  Great! How does it look?
+00:01:11 Sam (openai.com): We appreciate your flexibility, but unfortunately 8000 GPUs isn't enough to meet our needs right now.  We were hoping we could reach a compromise.
+00:01:16 Satya (microsoft.com):  I understand. I wish we could do more, but our resources are really stretched thin. I can offer a long-term partnership with guaranteed priority access to future GPU allocations, as they become available.
+00:01:21 Sam (openai.com):  That's an interesting offer. Can you give us more details about this partnership?
+00:01:23 Satya (microsoft.com): Sure. We can offer you a dedicated account manager to work with you directly on your GPU needs. We can also provide you with early access to new GPU technologies as they're developed.
+00:01:28 Sam (openai.com):  That's promising. We'll need to talk to our team to see if this partnership aligns with our long-term strategy. Can we schedule a call for later this week to discuss this in more detail?
+00:01:33 Satya (microsoft.com): Absolutely.  What day and time works for you?
+00:01:35 Sam (openai.com): How about Thursday at 2 pm your time?
+00:01:37 Satya (microsoft.com): That works for me. Looking forward to our call. 
+00:01:39 Sam (openai.com): Great. Thanks again, Satya. 
+00:01:41 Satya (microsoft.com): You're welcome, Sam. Talk to you Thursday. 
+00:01:42 (END CALL) 

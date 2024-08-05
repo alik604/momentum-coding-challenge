@@ -1,0 +1,34 @@
+00:00:00 Sam (openai.com): Hey there Staya.
+00:00:02 Satya  (microsoft.com): Hi Sam, how are you?
+00:00:05 Sam (openai.com): I'm doing good. Do you think you can give us 10000 more GPUs?
+00:00:06 Satya (microsoft.com): I'm sorry Sam we can't do 10000, how about 5000?
+00:00:08 Sam (openai.com): 5000 is better than nothing but I really need those 10,000. 
+00:00:10 Satya (microsoft.com): Sam, I understand your needs, but 5000 is the best I can do at this time. 
+00:00:12 Sam (openai.com): What if I promise to pay you double for the next 5000, that's 10,000 total? 
+00:00:15 Satya (microsoft.com): That's an interesting proposition. I'll need to discuss it with my team. 
+00:00:18 Sam (openai.com): Of course, I understand. 
+00:00:20 Satya (microsoft.com): Sam, I've spoken to my team and we're willing to give you an additional 2500 GPUs. 
+00:00:22 Sam (openai.com): I appreciate that Satya, but I need 10,000, 2500 isn't going to cut it. 
+00:00:24 Satya (microsoft.com): Sam, I'm afraid that's all we can offer at this moment. 
+00:00:27 Sam (openai.com): What about if we make this a long term partnership? We can guarantee a minimum purchase of 10,000 GPUs each year if you give us the 10,000 now.
+00:00:30 Satya (microsoft.com):  That's an interesting proposal,  Sam. I'd need to discuss the details with our financial team. 
+00:00:33 Sam (openai.com): Absolutely, no pressure. Just let me know what you need from my end. 
+00:00:36 Satya (microsoft.com): I'll get back to you as soon as possible, Sam. 
+00:00:38 Sam (openai.com):  I'll be waiting for your call, Satya. 
+00:00:40 Satya (microsoft.com):  We'll be in touch.  
+00:00:42 Sam (openai.com): Thanks, Satya.  I really appreciate your time. 
+00:00:45 Satya (microsoft.com): No problem, Sam.  Good luck with your project. 
+00:00:47 Sam (openai.com):  Thanks. I'll keep you updated. 
+00:00:50 Satya (microsoft.com):  Sounds good. 
+00:00:52 Sam (openai.com):  Talk to you soon. 
+00:00:55 Satya (microsoft.com): Bye Sam.  
+00:00:57 Sam (openai.com): Bye. 
+00:00:59 Sam (openai.com): I wonder what they'll say.  
+00:01:01 Sam (openai.com):  I'll try to get a hold of some GPUs from another supplier in the meantime. 
+00:01:03 Sam (openai.com):  I hope they come back with a good answer.  
+00:01:05 Sam (openai.com):  I need those GPUs to keep the project moving forward. 
+00:01:07 Sam (openai.com):  I really hope this deal works out.
+00:01:09 Sam (openai.com):  I'll just have to be patient and see what happens. 
+00:01:11 Sam (openai.com):   I need to focus on getting other parts of the project completed in the meantime. 
+00:01:13 Sam (openai.com):  There's always a way to get things done, even when things seem difficult. 
+00:01:15 Sam (openai.com): I'm ready to take on whatever comes my way.
