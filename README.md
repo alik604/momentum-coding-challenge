@@ -22,11 +22,11 @@ The following is required for the extractive summarization feature. Cautions thi
 
 To get the key here: https://aistudio.google.com/app/apikey
 
-Set a os variable `GEMINI_API_KEY` with the API key
+Set an os variable `GEMINI_API_KEY` with the API key
 
 ### Run the scripts
 
-Project is 3 separate scripts, I kept the files basic
+The project is 3 separate scripts, I kept the files basic
 
 1. `python part1.py`
 2. `python part2.py --transcript "sales_call_transcript.txt"`
@@ -58,21 +58,20 @@ For Part2,
 
 For Part 2 & 3
 1. Need to Improve System_instruction: It should mention the name of the salesperson and our company, so the model has
-   greater context (Hardcoded for POC stage)
+   a greater context (Hardcoded for the POC stage)
     2. This is currently hardcoded and wont stand up to different input data
 
 ## Supplemental features:
 
 1. Extractive summarization of a document provided as a .txt file
     1. In real life, Slack & Gmail messages have additional docs for background context
-    2. Attaching a pdf and sending straight to the model is trivial
+    2. Attaching a PDF and sending it straight to the model is trivial
 2. Persist chat history between user questions and AI responses to a database
-    1. Partially implemented, the chat history is stored as a pickle. I get an error is reading. At first I suspected in
-       a proprietary obj type, but using Pickle (despite the security risk), should be sorting it as the original object
-       type. I don't see why it doesn't work. https://stackoverflow.com/a/25465148/5728614 see ("Chat
+    1. Partially implemented, the chat history is stored as a pickle. The (list) object gets read correctly, but the API isn't happy with it.
+       At first, I suspected an object type that's proprietary to the API's package, then after using Pickle (despite the security risk), a potential object type change should be a non-issue.
+       I don't see why it doesn't work. https://stackoverflow.com/a/25465148/5728614 see ("Chat
        conversations")[https://ai.google.dev/gemini-api/docs/get-started/tutorial?lang=python]
-    2. I know when a bug takes 5 mins or a lot more, this is the latter case. So rather cut loses 20 mins
-3. PyLint on main 3 files
+    3. I know when a bug takes 5 mins or a lot more, this is the latter case. So rather cut loses 20 mins
 
 Without extractive summarization being sent to System
 
@@ -90,26 +89,25 @@ Summarized Document Size: 2538
 The customer, Sam, was interested in the **InnovateX 5000 GPU**. He requested a large quantity (10,000) of these GPUs for his project. 
 ```
 
-> The generated design doc is for the "InnovateX 5000 GPU". The customer never asked for this specific GPU, but thats a
-> issue on the model side.
+> The generated design doc is for the "InnovateX 5000 GPU". The customer never asked for this specific GPU, but thats a model-side issue. And on me for not making the design doc and text line up. I should have generated a better conversation in part1 by adding the design doc to the "System"
 
 
 Potential features:
 
-1. Can send gemini a PDF of a design doc. This is will add more code without showing my abilities as any greater, which
-   is why I did the text based equivalent with the extractive summarization (shows I know NLP.. I was a data Scientist
+1. Can send Gemini a PDF of a design doc. This will add more code without showing my abilities as any greater, which
+   is why I did the text-based equivalent with the extractive summarization (shows I know NLP- I was a Data Scientist
    before)
-2. I was planed on making a docker file
+2. I was planning on making a docker file
     1. Benefits
         1. **Docker Scout (host level security)**
         2. Portability
         3. Easy to deploy
     2. Cons
-        1. Not sure which port I need to expose for the API call. Seems to be 443
-        2. My local windows install is broken. Normally I'd code on my work Mac
+        1. Not sure which port I need to expose for the API call. Seems to be port 443
+        2. Docker is broken on my local Windows, the fix for a few weeks back isn't working. Normally I'd code on my work Mac
 3. **Add SAST & DAST (application level security)**
     1. ie, Bandit
-    2. Regardless of having it in the CI/CD, first step is having it as part of local testing (just like
+    2. Regardless of having it in the CI/CD, the first step is having it as part of local testing (just like
        PyLint/Black/Flake8)
 4. Use Latent Dirichlet Allocation (LDA) to show the various topic the chat. Use NLTK & Gensim.
     1. Can make a nice-ish word cloud with the topics as a visual representation
