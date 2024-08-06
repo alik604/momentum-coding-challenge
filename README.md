@@ -92,7 +92,7 @@ The customer, Sam, was interested in the **InnovateX 5000 GPU**. He requested a 
 > The generated design doc is for the "InnovateX 5000 GPU". The customer never asked for this specific GPU, but thats a model-side issue. And on me for not making the design doc and text line up. I should have generated a better conversation in part1 by adding the design doc to the "System"
 
 
-Potential features:
+## Potential features:
 
 1. Can send Gemini a PDF of a design doc. This will add more code without showing my abilities as any greater, which
    is why I did the text-based equivalent with the extractive summarization (shows I know NLP- I was a Data Scientist
@@ -114,3 +114,6 @@ Potential features:
         1. Get
            topics: https://towardsdatascience.com/nlp-extracting-the-main-topics-from-your-dataset-using-lda-in-minutes-21486f5aa925 & https://stackoverflow.com/questions/59354365/how-to-extract-topics-from-existing-text-clusters
         2. Make word cloud: https://medium.com/@harinisureshla/wordclouds-basics-of-nlp-5b60be226414
+
+## AI usage
+I didn't use much AI beyond standard IntelliSense. It kept making up object properties. The only AI code was for reading/writing a txt file because I didn't memorize the context handler syntax   
